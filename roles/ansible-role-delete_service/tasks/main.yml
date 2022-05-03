@@ -1,0 +1,14 @@
+---
+- name: Restart Consul
+  ansible.builtin.systemd:
+    name: consul.service
+    state: restarted
+    enabled: yes
+
+# - name: delete systemd unit file 
+#   ansible.builtin.file:
+#     path: /etc/systemd/system/jmx_exporter23176.service
+#     state: absent
+
+# - name: systemctl reset-failed
+#   ansible.builtin.command: systemctl reset-failed
