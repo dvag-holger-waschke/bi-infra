@@ -1,11 +1,20 @@
 ---
-- name: Install the latest version of consul
-  yum:
-    name: consul
-    state: latest
+# - name: Install the latest version of consul
+#   yum:
+#     name: consul
+#     state: latest
 
-- name: Restart Consul
-  ansible.builtin.systemd:
-    name: consul.service
-    state: restarted
-    enabled: yes
+# - name: Restart Consul
+#   ansible.builtin.systemd:
+#     name: consul.service
+#     state: restarted
+#     enabled: yes
+
+- name: Show Consul Version
+  shell: consul --version
+  register: consul_version
+
+    
+- name: Show Consul Version
+  ansible.builtin.debug:
+    var: consul_version.stdout_lines

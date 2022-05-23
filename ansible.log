@@ -3726,3 +3726,217 @@ The offending line appears to be:
 2022-04-19 12:49:58,525 p=4848 u=holger n=ansible | cloudapp03.14.cloud.dvag.net : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
 2022-04-19 12:49:58,526 p=4848 u=holger n=ansible | cloudapp03.3.cloud.dvag.net : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 2022-04-19 12:49:58,526 p=4848 u=holger n=ansible | cloudapp03.4.cloud.dvag.net : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 09:22:15,645 p=400 u=holger n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/holger/git/bi-infra/roles/ansible-role-delete_service/tasks/main.yml': line 15, column 13, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  shell: consul --version
+    register: consul_version
+            ^ here
+
+2022-05-23 10:02:18,553 p=1391 u=holger n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/holger/git/bi-infra/roles/ansible-role-delete_service/tasks/main.yml': line 15, column 13, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  shell: consul --version
+    register: consul_version
+            ^ here
+
+2022-05-23 10:03:20,881 p=1423 u=holger n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/holger/git/bi-infra/roles/ansible-role-delete_service/tasks/main.yml': line 15, column 13, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  shell: consul --version
+    register: consul_version
+            ^ here
+
+2022-05-23 10:04:02,180 p=1441 u=holger n=ansible | PLAY [all] *************************************************************************************************************
+2022-05-23 10:04:02,321 p=1441 u=holger n=ansible | TASK [ansible-role-delete_service : Show Consul Version] ***************************************************************
+2022-05-23 10:04:02,549 p=1441 u=holger n=ansible | fatal: [cloudssop01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname cloudssop01: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,568 p=1441 u=holger n=ansible | fatal: [cloudapp51]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname cloudapp51: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,588 p=1441 u=holger n=ansible | fatal: [db2sql01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname db2sql01: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,619 p=1441 u=holger n=ansible | fatal: [oracl02]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname oracl02: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,648 p=1441 u=holger n=ansible | fatal: [vvrootproxy04]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname vvrootproxy04: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,718 p=1441 u=holger n=ansible | fatal: [cloudapp01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname cloudapp01: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,752 p=1441 u=holger n=ansible | fatal: [cloudapp53]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname cloudapp53: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,754 p=1441 u=holger n=ansible | fatal: [shadowmailarc99]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname shadowmailarc99: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,754 p=1441 u=holger n=ansible | fatal: [cloudapp03]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname cloudapp03: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,770 p=1441 u=holger n=ansible | fatal: [cloudssop04]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname cloudssop04: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,773 p=1441 u=holger n=ansible | fatal: [mailarc99]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname mailarc99: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,784 p=1441 u=holger n=ansible | fatal: [cloudssop03]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname cloudssop03: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,800 p=1441 u=holger n=ansible | fatal: [oracl01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname oracl01: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,821 p=1441 u=holger n=ansible | fatal: [cloudapp02]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname cloudapp02: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,823 p=1441 u=holger n=ansible | fatal: [vvrootproxy03]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname vvrootproxy03: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,833 p=1441 u=holger n=ansible | fatal: [cloudssop02]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname cloudssop02: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,864 p=1441 u=holger n=ansible | fatal: [cloudapp52]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname cloudapp52: Temporary failure in name resolution", "unreachable": true}
+2022-05-23 10:04:02,866 p=1441 u=holger n=ansible | PLAY RECAP *************************************************************************************************************
+2022-05-23 10:04:02,866 p=1441 u=holger n=ansible | cloudapp01                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,866 p=1441 u=holger n=ansible | cloudapp02                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,867 p=1441 u=holger n=ansible | cloudapp03                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,867 p=1441 u=holger n=ansible | cloudapp51                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,867 p=1441 u=holger n=ansible | cloudapp52                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,867 p=1441 u=holger n=ansible | cloudapp53                 : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,867 p=1441 u=holger n=ansible | cloudssop01                : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,867 p=1441 u=holger n=ansible | cloudssop02                : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,867 p=1441 u=holger n=ansible | cloudssop03                : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,868 p=1441 u=holger n=ansible | cloudssop04                : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,868 p=1441 u=holger n=ansible | db2sql01                   : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,868 p=1441 u=holger n=ansible | mailarc99                  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,868 p=1441 u=holger n=ansible | oracl01                    : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,868 p=1441 u=holger n=ansible | oracl02                    : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,868 p=1441 u=holger n=ansible | shadowmailarc99            : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,868 p=1441 u=holger n=ansible | vvrootproxy03              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:04:02,868 p=1441 u=holger n=ansible | vvrootproxy04              : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:12:28,294 p=1647 u=holger n=ansible | PLAY [all] *************************************************************************************************************
+2022-05-23 10:12:28,310 p=1647 u=holger n=ansible | TASK [ansible-role-delete_service : Show Consul Version] ***************************************************************
+2022-05-23 10:12:28,546 p=1647 u=holger n=ansible | fatal: [db2sql01.14.web.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname db2sql01.14.web.dvag.net: Name or service not known", "unreachable": true}
+2022-05-23 10:12:28,568 p=1647 u=holger n=ansible | fatal: [db2sql01.1.web.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname db2sql01.1.web.dvag.net: Name or service not known", "unreachable": true}
+2022-05-23 10:12:28,597 p=1647 u=holger n=ansible | fatal: [db2sql01.3.web.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname db2sql01.3.web.dvag.net: Name or service not known", "unreachable": true}
+2022-05-23 10:12:28,703 p=1647 u=holger n=ansible | fatal: [db2sql01.4.web.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname db2sql01.4.web.dvag.net: Name or service not known", "unreachable": true}
+2022-05-23 10:12:29,906 p=1647 u=holger n=ansible |  [ERROR]: User interrupted execution
+
+2022-05-23 10:13:27,605 p=1734 u=holger n=ansible | PLAY [all] *************************************************************************************************************
+2022-05-23 10:13:27,624 p=1734 u=holger n=ansible | TASK [ansible-role-delete_service : Show Consul Version] ***************************************************************
+2022-05-23 10:13:27,861 p=1734 u=holger n=ansible | fatal: [db2sql01.1.web.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname db2sql01.1.web.dvag.net: Name or service not known", "unreachable": true}
+2022-05-23 10:13:27,877 p=1734 u=holger n=ansible | fatal: [db2sql01.14.web.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname db2sql01.14.web.dvag.net: Name or service not known", "unreachable": true}
+2022-05-23 10:13:27,914 p=1734 u=holger n=ansible | fatal: [db2sql01.3.web.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname db2sql01.3.web.dvag.net: Name or service not known", "unreachable": true}
+2022-05-23 10:13:28,019 p=1734 u=holger n=ansible | fatal: [db2sql01.4.web.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname db2sql01.4.web.dvag.net: Name or service not known", "unreachable": true}
+2022-05-23 10:13:29,727 p=1734 u=holger n=ansible | [WARNING]: Platform linux on host oracl01.0.oracle.dvag.net is using the discovered Python interpreter at
+/usr/bin/python, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2022-05-23 10:13:29,728 p=1734 u=holger n=ansible | changed: [oracl01.0.oracle.dvag.net]
+2022-05-23 10:13:29,913 p=1734 u=holger n=ansible | changed: [cloudssop01.3.cloud.dvag.net]
+2022-05-23 10:13:29,940 p=1734 u=holger n=ansible | changed: [cloudssop03.3.cloud.dvag.net]
+2022-05-23 10:13:29,968 p=1734 u=holger n=ansible | changed: [cloudssop02.3.cloud.dvag.net]
+2022-05-23 10:13:29,995 p=1734 u=holger n=ansible | changed: [cloudapp01.4.cloud.dvag.net]
+2022-05-23 10:13:30,060 p=1734 u=holger n=ansible | changed: [vvrootproxy03.vilavita.intra]
+2022-05-23 10:13:30,101 p=1734 u=holger n=ansible | fatal: [shadowmailarc99.1.mail.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname shadowmailarc99.1.mail.dvag.net: Name or service not known", "unreachable": true}
+2022-05-23 10:13:30,102 p=1734 u=holger n=ansible | fatal: [mailarc99.1.mail.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname mailarc99.1.mail.dvag.net: Name or service not known", "unreachable": true}
+2022-05-23 10:13:30,226 p=1734 u=holger n=ansible | changed: [vvrootproxy04.vilavita.intra]
+2022-05-23 10:13:31,247 p=1734 u=holger n=ansible | [WARNING]: Platform linux on host oracl02.0.oracle.dvag.net is using the discovered Python interpreter at
+/usr/bin/python, but future installation of another Python interpreter could change the meaning of that path. See
+https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery.html for more information.
+
+2022-05-23 10:13:31,248 p=1734 u=holger n=ansible | changed: [oracl02.0.oracle.dvag.net]
+2022-05-23 10:13:31,716 p=1734 u=holger n=ansible | changed: [cloudapp03.4.cloud.dvag.net]
+2022-05-23 10:13:31,826 p=1734 u=holger n=ansible | changed: [cloudapp02.4.cloud.dvag.net]
+2022-05-23 10:13:37,770 p=1734 u=holger n=ansible | fatal: [cloudapp52.4.cloud.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host cloudapp52.4.cloud.dvag.net port 22: Connection timed out", "unreachable": true}
+2022-05-23 10:13:37,824 p=1734 u=holger n=ansible | fatal: [cloudssop04.4.cloud.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host cloudssop04.4.cloud.dvag.net port 22: Connection timed out", "unreachable": true}
+2022-05-23 10:13:37,996 p=1734 u=holger n=ansible | fatal: [cloudapp51.4.cloud.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host cloudapp51.4.cloud.dvag.net port 22: Connection timed out", "unreachable": true}
+2022-05-23 10:13:39,882 p=1734 u=holger n=ansible | fatal: [cloudapp53.4.cloud.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host cloudapp53.4.cloud.dvag.net port 22: Connection timed out", "unreachable": true}
+2022-05-23 10:13:40,155 p=1734 u=holger n=ansible | fatal: [cloudssop04.3.cloud.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host cloudssop04.3.cloud.dvag.net port 22: Connection timed out", "unreachable": true}
+2022-05-23 10:13:40,188 p=1734 u=holger n=ansible | TASK [ansible-role-delete_service : Show Consul Version] ***************************************************************
+2022-05-23 10:13:40,418 p=1734 u=holger n=ansible | ok: [cloudssop02.3.cloud.dvag.net] => {
+    "consul_version.stdout_lines": [
+        "Consul v1.12.0",
+        "Revision 09a8cdb4",
+        "Protocol 2 spoken by default, understands 2 to 3 (agent will automatically use protocol >2 when speaking to compatible agents)"
+    ]
+}
+2022-05-23 10:13:40,419 p=1734 u=holger n=ansible | ok: [vvrootproxy04.vilavita.intra] => {
+    "consul_version.stdout_lines": [
+        "Consul v1.12.0",
+        "Revision 09a8cdb4",
+        "Protocol 2 spoken by default, understands 2 to 3 (agent will automatically use protocol >2 when speaking to compatible agents)"
+    ]
+}
+2022-05-23 10:13:40,420 p=1734 u=holger n=ansible | ok: [oracl02.0.oracle.dvag.net] => {
+    "consul_version.stdout_lines": [
+        "Consul v1.12.0",
+        "Revision 09a8cdb4",
+        "Protocol 2 spoken by default, understands 2 to 3 (agent will automatically use protocol >2 when speaking to compatible agents)"
+    ]
+}
+2022-05-23 10:13:40,421 p=1734 u=holger n=ansible | ok: [cloudssop01.3.cloud.dvag.net] => {
+    "consul_version.stdout_lines": [
+        "Consul v1.12.0",
+        "Revision 09a8cdb4",
+        "Protocol 2 spoken by default, understands 2 to 3 (agent will automatically use protocol >2 when speaking to compatible agents)"
+    ]
+}
+2022-05-23 10:13:40,421 p=1734 u=holger n=ansible | ok: [vvrootproxy03.vilavita.intra] => {
+    "consul_version.stdout_lines": [
+        "Consul v1.12.0",
+        "Revision 09a8cdb4",
+        "Protocol 2 spoken by default, understands 2 to 3 (agent will automatically use protocol >2 when speaking to compatible agents)"
+    ]
+}
+2022-05-23 10:13:40,422 p=1734 u=holger n=ansible | ok: [oracl01.0.oracle.dvag.net] => {
+    "consul_version.stdout_lines": [
+        "Consul v1.12.0",
+        "Revision 09a8cdb4",
+        "Protocol 2 spoken by default, understands 2 to 3 (agent will automatically use protocol >2 when speaking to compatible agents)"
+    ]
+}
+2022-05-23 10:13:40,423 p=1734 u=holger n=ansible | ok: [cloudssop03.3.cloud.dvag.net] => {
+    "consul_version.stdout_lines": [
+        "Consul v1.12.0",
+        "Revision 09a8cdb4",
+        "Protocol 2 spoken by default, understands 2 to 3 (agent will automatically use protocol >2 when speaking to compatible agents)"
+    ]
+}
+2022-05-23 10:13:40,424 p=1734 u=holger n=ansible | ok: [cloudapp01.4.cloud.dvag.net] => {
+    "consul_version.stdout_lines": [
+        "Consul v1.12.0",
+        "Revision 09a8cdb4",
+        "Protocol 2 spoken by default, understands 2 to 3 (agent will automatically use protocol >2 when speaking to compatible agents)"
+    ]
+}
+2022-05-23 10:13:40,432 p=1734 u=holger n=ansible | ok: [cloudapp03.4.cloud.dvag.net] => {
+    "consul_version.stdout_lines": [
+        "Consul v1.12.0",
+        "Revision 09a8cdb4",
+        "Protocol 2 spoken by default, understands 2 to 3 (agent will automatically use protocol >2 when speaking to compatible agents)"
+    ]
+}
+2022-05-23 10:13:40,456 p=1734 u=holger n=ansible | ok: [cloudapp02.4.cloud.dvag.net] => {
+    "consul_version.stdout_lines": [
+        "Consul v1.12.0",
+        "Revision 09a8cdb4",
+        "Protocol 2 spoken by default, understands 2 to 3 (agent will automatically use protocol >2 when speaking to compatible agents)"
+    ]
+}
+2022-05-23 10:13:40,478 p=1734 u=holger n=ansible | PLAY RECAP *************************************************************************************************************
+2022-05-23 10:13:40,479 p=1734 u=holger n=ansible | cloudapp01.4.cloud.dvag.net : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,479 p=1734 u=holger n=ansible | cloudapp02.4.cloud.dvag.net : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,480 p=1734 u=holger n=ansible | cloudapp03.4.cloud.dvag.net : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,480 p=1734 u=holger n=ansible | cloudapp51.4.cloud.dvag.net : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,481 p=1734 u=holger n=ansible | cloudapp52.4.cloud.dvag.net : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,481 p=1734 u=holger n=ansible | cloudapp53.4.cloud.dvag.net : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,481 p=1734 u=holger n=ansible | cloudssop01.3.cloud.dvag.net : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,482 p=1734 u=holger n=ansible | cloudssop02.3.cloud.dvag.net : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,482 p=1734 u=holger n=ansible | cloudssop03.3.cloud.dvag.net : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,483 p=1734 u=holger n=ansible | cloudssop04.3.cloud.dvag.net : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,483 p=1734 u=holger n=ansible | cloudssop04.4.cloud.dvag.net : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,484 p=1734 u=holger n=ansible | db2sql01.1.web.dvag.net    : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,484 p=1734 u=holger n=ansible | db2sql01.14.web.dvag.net   : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,484 p=1734 u=holger n=ansible | db2sql01.3.web.dvag.net    : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,485 p=1734 u=holger n=ansible | db2sql01.4.web.dvag.net    : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,485 p=1734 u=holger n=ansible | mailarc99.1.mail.dvag.net  : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,486 p=1734 u=holger n=ansible | oracl01.0.oracle.dvag.net  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,487 p=1734 u=holger n=ansible | oracl02.0.oracle.dvag.net  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,487 p=1734 u=holger n=ansible | shadowmailarc99.1.mail.dvag.net : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,488 p=1734 u=holger n=ansible | vvrootproxy03.vilavita.intra : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-05-23 10:13:40,488 p=1734 u=holger n=ansible | vvrootproxy04.vilavita.intra : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
