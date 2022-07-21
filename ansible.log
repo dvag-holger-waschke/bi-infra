@@ -3940,3 +3940,516 @@ https://docs.ansible.com/ansible/2.10/reference_appendices/interpreter_discovery
 2022-05-23 10:13:40,487 p=1734 u=holger n=ansible | shadowmailarc99.1.mail.dvag.net : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
 2022-05-23 10:13:40,488 p=1734 u=holger n=ansible | vvrootproxy03.vilavita.intra : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 2022-05-23 10:13:40,488 p=1734 u=holger n=ansible | vvrootproxy04.vilavita.intra : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:24,611 p=1987 u=holger n=ansible | PLAY [all] *************************************************************************************************************
+2022-06-02 09:27:24,742 p=1987 u=holger n=ansible | TASK [ansible-role-delete_service : Remove file (delete file)] *********************************************************
+2022-06-02 09:27:26,734 p=1987 u=holger n=ansible | changed: [app01.3.dos.dvag.net]
+2022-06-02 09:27:26,753 p=1987 u=holger n=ansible | changed: [app06.3.dos.dvag.net]
+2022-06-02 09:27:26,784 p=1987 u=holger n=ansible | changed: [app02.3.dos.dvag.net]
+2022-06-02 09:27:26,811 p=1987 u=holger n=ansible | changed: [app03.3.dos.dvag.net]
+2022-06-02 09:27:26,828 p=1987 u=holger n=ansible | changed: [app04.3.dos.dvag.net]
+2022-06-02 09:27:26,849 p=1987 u=holger n=ansible | changed: [cloudapp02.3.cloud.dvag.net]
+2022-06-02 09:27:26,866 p=1987 u=holger n=ansible | changed: [cloudapp01.3.cloud.dvag.net]
+2022-06-02 09:27:26,882 p=1987 u=holger n=ansible | changed: [app05.3.dos.dvag.net]
+2022-06-02 09:27:26,988 p=1987 u=holger n=ansible | changed: [apos01.3.dos.dvag.net]
+2022-06-02 09:27:27,041 p=1987 u=holger n=ansible | changed: [apos02.3.dos.dvag.net]
+2022-06-02 09:27:28,358 p=1987 u=holger n=ansible | changed: [cloudsyncapp01.3.cloud.dvag.net]
+2022-06-02 09:27:28,498 p=1987 u=holger n=ansible | changed: [sync05.3.dos.dvag.net]
+2022-06-02 09:27:28,516 p=1987 u=holger n=ansible | changed: [sync04.3.dos.dvag.net]
+2022-06-02 09:27:28,545 p=1987 u=holger n=ansible | changed: [cloudapp03.3.cloud.dvag.net]
+2022-06-02 09:27:28,566 p=1987 u=holger n=ansible | changed: [sync02.3.dos.dvag.net]
+2022-06-02 09:27:28,616 p=1987 u=holger n=ansible | changed: [sync08.3.dos.dvag.net]
+2022-06-02 09:27:28,672 p=1987 u=holger n=ansible | changed: [sync06.3.dos.dvag.net]
+2022-06-02 09:27:28,704 p=1987 u=holger n=ansible | changed: [sync01.3.dos.dvag.net]
+2022-06-02 09:27:28,778 p=1987 u=holger n=ansible | changed: [sync03.3.dos.dvag.net]
+2022-06-02 09:27:28,912 p=1987 u=holger n=ansible | changed: [sync07.3.dos.dvag.net]
+2022-06-02 09:27:30,050 p=1987 u=holger n=ansible | changed: [sync09.3.dos.dvag.net]
+2022-06-02 09:27:30,237 p=1987 u=holger n=ansible | changed: [sync10.3.dos.dvag.net]
+2022-06-02 09:27:30,263 p=1987 u=holger n=ansible | changed: [sync12.3.dos.dvag.net]
+2022-06-02 09:27:30,332 p=1987 u=holger n=ansible | changed: [sync11.3.dos.dvag.net]
+2022-06-02 09:27:30,355 p=1987 u=holger n=ansible | changed: [webapp01.3.web.dvag.net]
+2022-06-02 09:27:30,379 p=1987 u=holger n=ansible | changed: [sync16.3.dos.dvag.net]
+2022-06-02 09:27:30,409 p=1987 u=holger n=ansible | changed: [sync14.3.dos.dvag.net]
+2022-06-02 09:27:30,427 p=1987 u=holger n=ansible | changed: [sync13.3.dos.dvag.net]
+2022-06-02 09:27:30,460 p=1987 u=holger n=ansible | changed: [sync15.3.dos.dvag.net]
+2022-06-02 09:27:30,534 p=1987 u=holger n=ansible | changed: [apos01.1.dos.dvag.net]
+2022-06-02 09:27:31,758 p=1987 u=holger n=ansible | changed: [app02.1.dos.dvag.net]
+2022-06-02 09:27:31,863 p=1987 u=holger n=ansible | changed: [apos02.1.dos.dvag.net]
+2022-06-02 09:27:31,956 p=1987 u=holger n=ansible | changed: [cloudsyncapp01.1.cloud.dvag.net]
+2022-06-02 09:27:31,986 p=1987 u=holger n=ansible | changed: [sync01.1.dos.dvag.net]
+2022-06-02 09:27:32,140 p=1987 u=holger n=ansible | changed: [app01.2.dos.dvag.net]
+2022-06-02 09:27:32,252 p=1987 u=holger n=ansible | changed: [sync02.1.dos.dvag.net]
+2022-06-02 09:27:32,291 p=1987 u=holger n=ansible | changed: [apos02.2.dos.dvag.net]
+2022-06-02 09:27:32,323 p=1987 u=holger n=ansible | changed: [apos01.2.dos.dvag.net]
+2022-06-02 09:27:32,384 p=1987 u=holger n=ansible | changed: [cloudapp01.1.cloud.dvag.net]
+2022-06-02 09:27:32,456 p=1987 u=holger n=ansible | changed: [cloudapp02.1.cloud.dvag.net]
+2022-06-02 09:27:33,386 p=1987 u=holger n=ansible | changed: [app02.2.dos.dvag.net]
+2022-06-02 09:27:33,669 p=1987 u=holger n=ansible | changed: [cloudsyncapp01.2.cloud.dvag.net]
+2022-06-02 09:27:33,833 p=1987 u=holger n=ansible | changed: [cloudapp01.2.cloud.dvag.net]
+2022-06-02 09:27:33,897 p=1987 u=holger n=ansible | changed: [app02.4.dos.dvag.net]
+2022-06-02 09:27:33,925 p=1987 u=holger n=ansible | changed: [cloudapp02.2.cloud.dvag.net]
+2022-06-02 09:27:34,029 p=1987 u=holger n=ansible | changed: [sync01.2.dos.dvag.net]
+2022-06-02 09:27:34,051 p=1987 u=holger n=ansible | changed: [app03.4.dos.dvag.net]
+2022-06-02 09:27:34,157 p=1987 u=holger n=ansible | changed: [sync02.2.dos.dvag.net]
+2022-06-02 09:27:34,531 p=1987 u=holger n=ansible | changed: [apos02.4.dos.dvag.net]
+2022-06-02 09:27:34,574 p=1987 u=holger n=ansible | changed: [apos01.4.dos.dvag.net]
+2022-06-02 09:27:34,945 p=1987 u=holger n=ansible | changed: [app04.4.dos.dvag.net]
+2022-06-02 09:27:35,097 p=1987 u=holger n=ansible | changed: [app05.4.dos.dvag.net]
+2022-06-02 09:27:35,341 p=1987 u=holger n=ansible | changed: [app06.4.dos.dvag.net]
+2022-06-02 09:27:35,599 p=1987 u=holger n=ansible | changed: [sync03.4.dos.dvag.net]
+2022-06-02 09:27:35,621 p=1987 u=holger n=ansible | changed: [sync01.4.dos.dvag.net]
+2022-06-02 09:27:35,639 p=1987 u=holger n=ansible | changed: [sync02.4.dos.dvag.net]
+2022-06-02 09:27:35,669 p=1987 u=holger n=ansible | changed: [cloudsyncapp01.14.cloud.dvag.net]
+2022-06-02 09:27:35,800 p=1987 u=holger n=ansible | changed: [cloudsyncapp01.4.cloud.dvag.net]
+2022-06-02 09:27:36,080 p=1987 u=holger n=ansible | changed: [sync04.4.dos.dvag.net]
+2022-06-02 09:27:36,200 p=1987 u=holger n=ansible | changed: [sync05.4.dos.dvag.net]
+2022-06-02 09:27:36,474 p=1987 u=holger n=ansible | changed: [sync06.4.dos.dvag.net]
+2022-06-02 09:27:36,649 p=1987 u=holger n=ansible | changed: [sync07.4.dos.dvag.net]
+2022-06-02 09:27:36,818 p=1987 u=holger n=ansible | changed: [sync08.4.dos.dvag.net]
+2022-06-02 09:27:37,023 p=1987 u=holger n=ansible | changed: [sync09.4.dos.dvag.net]
+2022-06-02 09:27:37,179 p=1987 u=holger n=ansible | changed: [sync11.4.dos.dvag.net]
+2022-06-02 09:27:37,186 p=1987 u=holger n=ansible | changed: [sync10.4.dos.dvag.net]
+2022-06-02 09:27:37,226 p=1987 u=holger n=ansible | changed: [sync12.4.dos.dvag.net]
+2022-06-02 09:27:37,345 p=1987 u=holger n=ansible | changed: [sync13.4.dos.dvag.net]
+2022-06-02 09:27:37,603 p=1987 u=holger n=ansible | changed: [sync14.4.dos.dvag.net]
+2022-06-02 09:27:37,812 p=1987 u=holger n=ansible | changed: [sync15.4.dos.dvag.net]
+2022-06-02 09:27:38,079 p=1987 u=holger n=ansible | changed: [sync16.4.dos.dvag.net]
+2022-06-02 09:27:38,114 p=1987 u=holger n=ansible | PLAY RECAP *************************************************************************************************************
+2022-06-02 09:27:38,115 p=1987 u=holger n=ansible | apos01.1.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,115 p=1987 u=holger n=ansible | apos01.2.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,116 p=1987 u=holger n=ansible | apos01.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,117 p=1987 u=holger n=ansible | apos01.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,117 p=1987 u=holger n=ansible | apos02.1.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,118 p=1987 u=holger n=ansible | apos02.2.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,118 p=1987 u=holger n=ansible | apos02.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,119 p=1987 u=holger n=ansible | apos02.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,119 p=1987 u=holger n=ansible | app01.2.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,120 p=1987 u=holger n=ansible | app01.3.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,120 p=1987 u=holger n=ansible | app02.1.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,121 p=1987 u=holger n=ansible | app02.2.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,122 p=1987 u=holger n=ansible | app02.3.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,122 p=1987 u=holger n=ansible | app02.4.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,122 p=1987 u=holger n=ansible | app03.3.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,123 p=1987 u=holger n=ansible | app03.4.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,123 p=1987 u=holger n=ansible | app04.3.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,123 p=1987 u=holger n=ansible | app04.4.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,123 p=1987 u=holger n=ansible | app05.3.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,124 p=1987 u=holger n=ansible | app05.4.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,124 p=1987 u=holger n=ansible | app06.3.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,124 p=1987 u=holger n=ansible | app06.4.dos.dvag.net       : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,124 p=1987 u=holger n=ansible | cloudapp01.1.cloud.dvag.net : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,124 p=1987 u=holger n=ansible | cloudapp01.2.cloud.dvag.net : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,124 p=1987 u=holger n=ansible | cloudapp01.3.cloud.dvag.net : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,124 p=1987 u=holger n=ansible | cloudapp02.1.cloud.dvag.net : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,124 p=1987 u=holger n=ansible | cloudapp02.2.cloud.dvag.net : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,124 p=1987 u=holger n=ansible | cloudapp02.3.cloud.dvag.net : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,124 p=1987 u=holger n=ansible | cloudapp03.3.cloud.dvag.net : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,125 p=1987 u=holger n=ansible | cloudsyncapp01.1.cloud.dvag.net : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,125 p=1987 u=holger n=ansible | cloudsyncapp01.14.cloud.dvag.net : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,125 p=1987 u=holger n=ansible | cloudsyncapp01.2.cloud.dvag.net : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,125 p=1987 u=holger n=ansible | cloudsyncapp01.3.cloud.dvag.net : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,125 p=1987 u=holger n=ansible | cloudsyncapp01.4.cloud.dvag.net : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,125 p=1987 u=holger n=ansible | sync01.1.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,125 p=1987 u=holger n=ansible | sync01.2.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,125 p=1987 u=holger n=ansible | sync01.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,125 p=1987 u=holger n=ansible | sync01.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,125 p=1987 u=holger n=ansible | sync02.1.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,125 p=1987 u=holger n=ansible | sync02.2.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,126 p=1987 u=holger n=ansible | sync02.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,126 p=1987 u=holger n=ansible | sync02.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,126 p=1987 u=holger n=ansible | sync03.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,126 p=1987 u=holger n=ansible | sync03.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,126 p=1987 u=holger n=ansible | sync04.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,126 p=1987 u=holger n=ansible | sync04.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,126 p=1987 u=holger n=ansible | sync05.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,126 p=1987 u=holger n=ansible | sync05.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,126 p=1987 u=holger n=ansible | sync06.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,126 p=1987 u=holger n=ansible | sync06.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,126 p=1987 u=holger n=ansible | sync07.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,126 p=1987 u=holger n=ansible | sync07.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,126 p=1987 u=holger n=ansible | sync08.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,127 p=1987 u=holger n=ansible | sync08.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,127 p=1987 u=holger n=ansible | sync09.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,127 p=1987 u=holger n=ansible | sync09.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,127 p=1987 u=holger n=ansible | sync10.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,127 p=1987 u=holger n=ansible | sync10.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,127 p=1987 u=holger n=ansible | sync11.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,127 p=1987 u=holger n=ansible | sync11.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,127 p=1987 u=holger n=ansible | sync12.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,127 p=1987 u=holger n=ansible | sync12.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,127 p=1987 u=holger n=ansible | sync13.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,127 p=1987 u=holger n=ansible | sync13.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,127 p=1987 u=holger n=ansible | sync14.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,128 p=1987 u=holger n=ansible | sync14.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,128 p=1987 u=holger n=ansible | sync15.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,128 p=1987 u=holger n=ansible | sync15.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,128 p=1987 u=holger n=ansible | sync16.3.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,128 p=1987 u=holger n=ansible | sync16.4.dos.dvag.net      : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-02 09:27:38,128 p=1987 u=holger n=ansible | webapp01.3.web.dvag.net    : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:04:35,125 p=257 u=holger n=ansible | PLAY [all] *************************************************************************************************************
+2022-06-10 11:04:35,346 p=257 u=holger n=ansible | TASK [ansible-role-delete_service : Remove file (delete file)] *********************************************************
+2022-06-10 11:04:37,611 p=257 u=holger n=ansible | ok: [webcms03.3.web.dvag.net]
+2022-06-10 11:04:37,634 p=257 u=holger n=ansible | ok: [zserver02.3.dos.dvag.net]
+2022-06-10 11:04:37,655 p=257 u=holger n=ansible | ok: [webcms02.1.web.dvag.net]
+2022-06-10 11:04:37,676 p=257 u=holger n=ansible | ok: [zserver01.3.dos.dvag.net]
+2022-06-10 11:04:37,725 p=257 u=holger n=ansible | ok: [webssop02.3.web.dvag.net]
+2022-06-10 11:04:37,743 p=257 u=holger n=ansible | ok: [webssop01.3.web.dvag.net]
+2022-06-10 11:04:37,758 p=257 u=holger n=ansible | ok: [webcms02.3.web.dvag.net]
+2022-06-10 11:04:37,793 p=257 u=holger n=ansible | ok: [webcms01.3.web.dvag.net]
+2022-06-10 11:04:38,299 p=257 u=holger n=ansible | ok: [zserver02.1.dos.dvag.net]
+2022-06-10 11:04:38,604 p=257 u=holger n=ansible | ok: [zserver01.1.dos.dvag.net]
+2022-06-10 11:04:39,275 p=257 u=holger n=ansible | ok: [webcms03.1.web.dvag.net]
+2022-06-10 11:04:39,300 p=257 u=holger n=ansible | ok: [webssop02.1.web.dvag.net]
+2022-06-10 11:04:39,391 p=257 u=holger n=ansible | ok: [webssop01.1.web.dvag.net]
+2022-06-10 11:04:39,474 p=257 u=holger n=ansible | ok: [webssop02.4.web.dvag.net]
+2022-06-10 11:04:39,637 p=257 u=holger n=ansible | ok: [webssop01.4.web.dvag.net]
+2022-06-10 11:04:39,689 p=257 u=holger n=ansible | ok: [webcms02.4.web.dvag.net]
+2022-06-10 11:04:39,828 p=257 u=holger n=ansible | ok: [webcms03.4.web.dvag.net]
+2022-06-10 11:04:40,153 p=257 u=holger n=ansible | ok: [webcms01.4.web.dvag.net]
+2022-06-10 11:04:40,184 p=257 u=holger n=ansible | ok: [apos01.3.dos.dvag.net]
+2022-06-10 11:04:40,500 p=257 u=holger n=ansible | ok: [apos02.3.dos.dvag.net]
+2022-06-10 11:04:40,969 p=257 u=holger n=ansible | ok: [webapp01.3.web.dvag.net]
+2022-06-10 11:04:41,108 p=257 u=holger n=ansible | ok: [b2bgw01.3.dos.dvag.net]
+2022-06-10 11:04:41,131 p=257 u=holger n=ansible | ok: [webapp02.3.web.dvag.net]
+2022-06-10 11:04:41,154 p=257 u=holger n=ansible | ok: [cloudsyncapp01.3.cloud.dvag.net]
+2022-06-10 11:04:41,185 p=257 u=holger n=ansible | ok: [b2bgw02.3.dos.dvag.net]
+2022-06-10 11:04:41,275 p=257 u=holger n=ansible | ok: [webmail01.3.web.dvag.net]
+2022-06-10 11:04:41,293 p=257 u=holger n=ansible | fatal: [app17.1.dos.dvag.net]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added 'app17.1.dos.dvag.net' (ED25519) to the list of known hosts.\r\nrundeck@app17.1.dos.dvag.net: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).", "unreachable": true}
+2022-06-10 11:04:41,475 p=257 u=holger n=ansible | ok: [webmail02.3.web.dvag.net]
+2022-06-10 11:04:41,746 p=257 u=holger n=ansible | ok: [webmail03.3.web.dvag.net]
+2022-06-10 11:04:41,955 p=257 u=holger n=ansible | ok: [apos02.1.dos.dvag.net]
+2022-06-10 11:04:42,082 p=257 u=holger n=ansible | ok: [app01.1.dos.dvag.net]
+2022-06-10 11:04:42,535 p=257 u=holger n=ansible | ok: [app18.1.dos.dvag.net]
+2022-06-10 11:04:42,565 p=257 u=holger n=ansible | ok: [app02.1.dos.dvag.net]
+2022-06-10 11:04:42,951 p=257 u=holger n=ansible | ok: [b2bgw02.1.dos.dvag.net]
+2022-06-10 11:04:42,979 p=257 u=holger n=ansible | ok: [b2bgw01.1.dos.dvag.net]
+2022-06-10 11:04:43,073 p=257 u=holger n=ansible | ok: [bulk01.1.dos.dvag.net]
+2022-06-10 11:04:43,094 p=257 u=holger n=ansible | ok: [bulk02.1.dos.dvag.net]
+2022-06-10 11:04:43,622 p=257 u=holger n=ansible | ok: [cloudsyncapp01.1.cloud.dvag.net]
+2022-06-10 11:04:43,727 p=257 u=holger n=ansible | ok: [cloudapp02.1.cloud.dvag.net]
+2022-06-10 11:04:43,802 p=257 u=holger n=ansible | ok: [cloudssop02.1.cloud.dvag.net]
+2022-06-10 11:04:43,834 p=257 u=holger n=ansible | ok: [mailcon01.1.mail.dvag.net]
+2022-06-10 11:04:44,325 p=257 u=holger n=ansible | ok: [mailcon02.1.mail.dvag.net]
+2022-06-10 11:04:44,553 p=257 u=holger n=ansible | changed: [webmail01.1.web.dvag.net]
+2022-06-10 11:04:44,579 p=257 u=holger n=ansible | ok: [webmail02.1.web.dvag.net]
+2022-06-10 11:04:44,838 p=257 u=holger n=ansible | ok: [apos01.2.dos.dvag.net]
+2022-06-10 11:04:44,856 p=257 u=holger n=ansible | ok: [apos02.2.dos.dvag.net]
+2022-06-10 11:04:45,185 p=257 u=holger n=ansible | ok: [app01.2.dos.dvag.net]
+2022-06-10 11:04:45,268 p=257 u=holger n=ansible | ok: [app02.2.dos.dvag.net]
+2022-06-10 11:04:45,549 p=257 u=holger n=ansible | ok: [b2bgw01.2.dos.dvag.net]
+2022-06-10 11:04:45,615 p=257 u=holger n=ansible | ok: [b2bgw02.2.dos.dvag.net]
+2022-06-10 11:04:46,055 p=257 u=holger n=ansible | ok: [bulk01.2.dos.dvag.net]
+2022-06-10 11:04:46,277 p=257 u=holger n=ansible | ok: [bulk02.2.dos.dvag.net]
+2022-06-10 11:04:46,613 p=257 u=holger n=ansible | ok: [cloudapp01.2.cloud.dvag.net]
+2022-06-10 11:04:46,636 p=257 u=holger n=ansible | ok: [cloudssop01.2.cloud.dvag.net]
+2022-06-10 11:04:46,938 p=257 u=holger n=ansible | ok: [cloudapp02.2.cloud.dvag.net]
+2022-06-10 11:04:47,004 p=257 u=holger n=ansible | ok: [cloudssop02.2.cloud.dvag.net]
+2022-06-10 11:04:47,252 p=257 u=holger n=ansible | ok: [mailcon01.2.mail.dvag.net]
+2022-06-10 11:04:47,433 p=257 u=holger n=ansible | ok: [mailcon02.2.mail.dvag.net]
+2022-06-10 11:04:47,696 p=257 u=holger n=ansible | ok: [cloudsyncapp01.2.cloud.dvag.net]
+2022-06-10 11:04:48,026 p=257 u=holger n=ansible | ok: [apos01.4.dos.dvag.net]
+2022-06-10 11:04:48,159 p=257 u=holger n=ansible | ok: [apos02.4.dos.dvag.net]
+2022-06-10 11:04:48,406 p=257 u=holger n=ansible | ok: [b2bgw02.4.dos.dvag.net]
+2022-06-10 11:04:48,519 p=257 u=holger n=ansible | ok: [b2bgw01.4.dos.dvag.net]
+2022-06-10 11:04:48,645 p=257 u=holger n=ansible | ok: [cloudsyncapp01.14.cloud.dvag.net]
+2022-06-10 11:04:48,724 p=257 u=holger n=ansible | ok: [webapp01.4.web.dvag.net]
+2022-06-10 11:04:48,833 p=257 u=holger n=ansible | ok: [cloudsyncapp01.4.cloud.dvag.net]
+2022-06-10 11:04:48,887 p=257 u=holger n=ansible | ok: [webapp02.4.web.dvag.net]
+2022-06-10 11:04:49,216 p=257 u=holger n=ansible | ok: [webmail01.4.web.dvag.net]
+2022-06-10 11:04:49,668 p=257 u=holger n=ansible | ok: [webmail03.4.web.dvag.net]
+2022-06-10 11:04:49,670 p=257 u=holger n=ansible | ok: [webmail02.4.web.dvag.net]
+2022-06-10 11:04:50,467 p=257 u=holger n=ansible | ok: [bulk02.3.dos.dvag.net]
+2022-06-10 11:04:50,536 p=257 u=holger n=ansible | ok: [bulk01.3.dos.dvag.net]
+2022-06-10 11:04:50,718 p=257 u=holger n=ansible | ok: [mailcon01.3.mail.dvag.net]
+2022-06-10 11:04:50,813 p=257 u=holger n=ansible | ok: [mailcon02.3.mail.dvag.net]
+2022-06-10 11:04:51,116 p=257 u=holger n=ansible | ok: [mailcon03.3.mail.dvag.net]
+2022-06-10 11:04:54,319 p=257 u=holger n=ansible | ok: [mailcon03.1.mail.dvag.net]
+2022-06-10 11:04:54,340 p=257 u=holger n=ansible | TASK [ansible-role-delete_service : Remove file (delete file)] *********************************************************
+2022-06-10 11:04:55,055 p=257 u=holger n=ansible | changed: [zserver02.3.dos.dvag.net]
+2022-06-10 11:04:55,096 p=257 u=holger n=ansible | changed: [zserver01.3.dos.dvag.net]
+2022-06-10 11:04:55,132 p=257 u=holger n=ansible | changed: [webcms03.3.web.dvag.net]
+2022-06-10 11:04:55,179 p=257 u=holger n=ansible | changed: [webssop01.3.web.dvag.net]
+2022-06-10 11:04:55,199 p=257 u=holger n=ansible | changed: [webcms01.3.web.dvag.net]
+2022-06-10 11:04:55,222 p=257 u=holger n=ansible | changed: [webssop02.3.web.dvag.net]
+2022-06-10 11:04:55,243 p=257 u=holger n=ansible | changed: [webcms02.3.web.dvag.net]
+2022-06-10 11:04:55,263 p=257 u=holger n=ansible | changed: [webcms02.1.web.dvag.net]
+2022-06-10 11:04:55,377 p=257 u=holger n=ansible | changed: [zserver01.1.dos.dvag.net]
+2022-06-10 11:04:55,888 p=257 u=holger n=ansible | changed: [webcms03.1.web.dvag.net]
+2022-06-10 11:04:55,918 p=257 u=holger n=ansible | changed: [webssop02.1.web.dvag.net]
+2022-06-10 11:04:55,941 p=257 u=holger n=ansible | changed: [webssop01.1.web.dvag.net]
+2022-06-10 11:04:55,963 p=257 u=holger n=ansible | changed: [webssop02.4.web.dvag.net]
+2022-06-10 11:04:55,984 p=257 u=holger n=ansible | changed: [webssop01.4.web.dvag.net]
+2022-06-10 11:04:56,006 p=257 u=holger n=ansible | changed: [webcms02.4.web.dvag.net]
+2022-06-10 11:04:56,036 p=257 u=holger n=ansible | changed: [webcms03.4.web.dvag.net]
+2022-06-10 11:04:56,058 p=257 u=holger n=ansible | changed: [webcms01.4.web.dvag.net]
+2022-06-10 11:04:56,087 p=257 u=holger n=ansible | changed: [zserver02.1.dos.dvag.net]
+2022-06-10 11:04:56,123 p=257 u=holger n=ansible | changed: [apos01.3.dos.dvag.net]
+2022-06-10 11:04:56,681 p=257 u=holger n=ansible | changed: [webapp01.3.web.dvag.net]
+2022-06-10 11:04:56,744 p=257 u=holger n=ansible | changed: [webapp02.3.web.dvag.net]
+2022-06-10 11:04:56,761 p=257 u=holger n=ansible | changed: [apos02.3.dos.dvag.net]
+2022-06-10 11:04:56,784 p=257 u=holger n=ansible | changed: [b2bgw01.3.dos.dvag.net]
+2022-06-10 11:04:56,802 p=257 u=holger n=ansible | changed: [webmail02.3.web.dvag.net]
+2022-06-10 11:04:56,823 p=257 u=holger n=ansible | changed: [b2bgw02.3.dos.dvag.net]
+2022-06-10 11:04:56,842 p=257 u=holger n=ansible | changed: [webmail01.3.web.dvag.net]
+2022-06-10 11:04:56,861 p=257 u=holger n=ansible | changed: [webmail03.3.web.dvag.net]
+2022-06-10 11:04:56,881 p=257 u=holger n=ansible | changed: [cloudsyncapp01.3.cloud.dvag.net]
+2022-06-10 11:04:56,915 p=257 u=holger n=ansible | changed: [apos02.1.dos.dvag.net]
+2022-06-10 11:04:57,455 p=257 u=holger n=ansible | changed: [app18.1.dos.dvag.net]
+2022-06-10 11:04:57,491 p=257 u=holger n=ansible | changed: [app02.1.dos.dvag.net]
+2022-06-10 11:04:57,539 p=257 u=holger n=ansible | changed: [app01.1.dos.dvag.net]
+2022-06-10 11:04:57,595 p=257 u=holger n=ansible | changed: [b2bgw01.1.dos.dvag.net]
+2022-06-10 11:04:57,618 p=257 u=holger n=ansible | changed: [b2bgw02.1.dos.dvag.net]
+2022-06-10 11:04:57,638 p=257 u=holger n=ansible | changed: [bulk01.1.dos.dvag.net]
+2022-06-10 11:04:57,661 p=257 u=holger n=ansible | changed: [bulk02.1.dos.dvag.net]
+2022-06-10 11:04:57,686 p=257 u=holger n=ansible | changed: [cloudapp02.1.cloud.dvag.net]
+2022-06-10 11:04:57,724 p=257 u=holger n=ansible | changed: [cloudssop02.1.cloud.dvag.net]
+2022-06-10 11:04:57,749 p=257 u=holger n=ansible | changed: [cloudsyncapp01.1.cloud.dvag.net]
+2022-06-10 11:04:58,291 p=257 u=holger n=ansible | changed: [mailcon01.1.mail.dvag.net]
+2022-06-10 11:04:58,316 p=257 u=holger n=ansible | changed: [mailcon02.1.mail.dvag.net]
+2022-06-10 11:04:58,337 p=257 u=holger n=ansible | changed: [webmail01.1.web.dvag.net]
+2022-06-10 11:04:58,357 p=257 u=holger n=ansible | changed: [webmail02.1.web.dvag.net]
+2022-06-10 11:04:58,378 p=257 u=holger n=ansible | changed: [app01.2.dos.dvag.net]
+2022-06-10 11:04:58,398 p=257 u=holger n=ansible | changed: [app02.2.dos.dvag.net]
+2022-06-10 11:04:58,416 p=257 u=holger n=ansible | changed: [mailcon03.1.mail.dvag.net]
+2022-06-10 11:04:58,434 p=257 u=holger n=ansible | changed: [apos01.2.dos.dvag.net]
+2022-06-10 11:04:58,460 p=257 u=holger n=ansible | changed: [b2bgw01.2.dos.dvag.net]
+2022-06-10 11:04:58,491 p=257 u=holger n=ansible | changed: [apos02.2.dos.dvag.net]
+2022-06-10 11:04:59,073 p=257 u=holger n=ansible | changed: [b2bgw02.2.dos.dvag.net]
+2022-06-10 11:04:59,104 p=257 u=holger n=ansible | changed: [bulk01.2.dos.dvag.net]
+2022-06-10 11:04:59,137 p=257 u=holger n=ansible | changed: [cloudssop01.2.cloud.dvag.net]
+2022-06-10 11:04:59,154 p=257 u=holger n=ansible | changed: [cloudapp01.2.cloud.dvag.net]
+2022-06-10 11:04:59,172 p=257 u=holger n=ansible | changed: [cloudapp02.2.cloud.dvag.net]
+2022-06-10 11:04:59,191 p=257 u=holger n=ansible | changed: [bulk02.2.dos.dvag.net]
+2022-06-10 11:04:59,210 p=257 u=holger n=ansible | changed: [cloudssop02.2.cloud.dvag.net]
+2022-06-10 11:04:59,229 p=257 u=holger n=ansible | changed: [mailcon01.2.mail.dvag.net]
+2022-06-10 11:04:59,248 p=257 u=holger n=ansible | changed: [mailcon02.2.mail.dvag.net]
+2022-06-10 11:04:59,484 p=257 u=holger n=ansible | changed: [cloudsyncapp01.2.cloud.dvag.net]
+2022-06-10 11:04:59,897 p=257 u=holger n=ansible | changed: [webapp01.4.web.dvag.net]
+2022-06-10 11:04:59,921 p=257 u=holger n=ansible | changed: [webapp02.4.web.dvag.net]
+2022-06-10 11:04:59,941 p=257 u=holger n=ansible | changed: [apos01.4.dos.dvag.net]
+2022-06-10 11:04:59,966 p=257 u=holger n=ansible | changed: [cloudsyncapp01.14.cloud.dvag.net]
+2022-06-10 11:04:59,984 p=257 u=holger n=ansible | changed: [apos02.4.dos.dvag.net]
+2022-06-10 11:05:00,000 p=257 u=holger n=ansible | changed: [b2bgw02.4.dos.dvag.net]
+2022-06-10 11:05:00,001 p=257 u=holger n=ansible | changed: [webmail01.4.web.dvag.net]
+2022-06-10 11:05:00,002 p=257 u=holger n=ansible | changed: [b2bgw01.4.dos.dvag.net]
+2022-06-10 11:05:00,002 p=257 u=holger n=ansible | changed: [cloudsyncapp01.4.cloud.dvag.net]
+2022-06-10 11:05:00,103 p=257 u=holger n=ansible | changed: [webmail02.4.web.dvag.net]
+2022-06-10 11:05:00,527 p=257 u=holger n=ansible | changed: [webmail03.4.web.dvag.net]
+2022-06-10 11:05:00,647 p=257 u=holger n=ansible | changed: [bulk01.3.dos.dvag.net]
+2022-06-10 11:05:00,690 p=257 u=holger n=ansible | changed: [bulk02.3.dos.dvag.net]
+2022-06-10 11:05:00,728 p=257 u=holger n=ansible | changed: [mailcon01.3.mail.dvag.net]
+2022-06-10 11:05:00,737 p=257 u=holger n=ansible | changed: [mailcon03.3.mail.dvag.net]
+2022-06-10 11:05:00,756 p=257 u=holger n=ansible | changed: [mailcon02.3.mail.dvag.net]
+2022-06-10 11:05:00,779 p=257 u=holger n=ansible | TASK [ansible-role-delete_service : Make sure a service unit is running] ***********************************************
+2022-06-10 11:05:16,458 p=257 u=holger n=ansible | changed: [webcms02.1.web.dvag.net]
+2022-06-10 11:05:16,785 p=257 u=holger n=ansible | changed: [zserver02.3.dos.dvag.net]
+2022-06-10 11:05:16,815 p=257 u=holger n=ansible | changed: [webcms02.3.web.dvag.net]
+2022-06-10 11:05:16,845 p=257 u=holger n=ansible | changed: [webcms01.3.web.dvag.net]
+2022-06-10 11:05:16,878 p=257 u=holger n=ansible | changed: [zserver01.3.dos.dvag.net]
+2022-06-10 11:05:16,898 p=257 u=holger n=ansible | changed: [webssop01.3.web.dvag.net]
+2022-06-10 11:05:16,932 p=257 u=holger n=ansible | changed: [webssop02.3.web.dvag.net]
+2022-06-10 11:05:17,002 p=257 u=holger n=ansible | changed: [webcms03.3.web.dvag.net]
+2022-06-10 11:05:17,906 p=257 u=holger n=ansible | changed: [zserver02.1.dos.dvag.net]
+2022-06-10 11:05:18,063 p=257 u=holger n=ansible | changed: [zserver01.1.dos.dvag.net]
+2022-06-10 11:05:30,549 p=257 u=holger n=ansible | changed: [webcms03.1.web.dvag.net]
+2022-06-10 11:05:30,900 p=257 u=holger n=ansible | changed: [webssop01.1.web.dvag.net]
+2022-06-10 11:05:30,983 p=257 u=holger n=ansible | changed: [webssop01.4.web.dvag.net]
+2022-06-10 11:05:31,018 p=257 u=holger n=ansible | changed: [webssop02.1.web.dvag.net]
+2022-06-10 11:05:31,049 p=257 u=holger n=ansible | changed: [webssop02.4.web.dvag.net]
+2022-06-10 11:05:31,083 p=257 u=holger n=ansible | changed: [webcms02.4.web.dvag.net]
+2022-06-10 11:05:31,110 p=257 u=holger n=ansible | changed: [webcms01.4.web.dvag.net]
+2022-06-10 11:05:31,198 p=257 u=holger n=ansible | changed: [webcms03.4.web.dvag.net]
+2022-06-10 11:05:32,102 p=257 u=holger n=ansible | changed: [apos01.3.dos.dvag.net]
+2022-06-10 11:05:32,224 p=257 u=holger n=ansible | changed: [apos02.3.dos.dvag.net]
+2022-06-10 11:05:44,825 p=257 u=holger n=ansible | changed: [b2bgw01.3.dos.dvag.net]
+2022-06-10 11:05:45,000 p=257 u=holger n=ansible | changed: [webapp02.3.web.dvag.net]
+2022-06-10 11:05:45,018 p=257 u=holger n=ansible | changed: [webapp01.3.web.dvag.net]
+2022-06-10 11:05:45,036 p=257 u=holger n=ansible | changed: [webmail02.3.web.dvag.net]
+2022-06-10 11:05:45,091 p=257 u=holger n=ansible | changed: [webmail01.3.web.dvag.net]
+2022-06-10 11:05:45,112 p=257 u=holger n=ansible | changed: [cloudsyncapp01.3.cloud.dvag.net]
+2022-06-10 11:05:45,168 p=257 u=holger n=ansible | changed: [b2bgw02.3.dos.dvag.net]
+2022-06-10 11:05:45,205 p=257 u=holger n=ansible | changed: [webmail03.3.web.dvag.net]
+2022-06-10 11:05:46,254 p=257 u=holger n=ansible | changed: [app01.1.dos.dvag.net]
+2022-06-10 11:05:46,331 p=257 u=holger n=ansible | changed: [apos02.1.dos.dvag.net]
+2022-06-10 11:05:58,841 p=257 u=holger n=ansible | changed: [app02.1.dos.dvag.net]
+2022-06-10 11:05:58,882 p=257 u=holger n=ansible | changed: [app18.1.dos.dvag.net]
+2022-06-10 11:05:59,377 p=257 u=holger n=ansible | changed: [bulk01.1.dos.dvag.net]
+2022-06-10 11:05:59,405 p=257 u=holger n=ansible | changed: [cloudssop02.1.cloud.dvag.net]
+2022-06-10 11:05:59,426 p=257 u=holger n=ansible | changed: [b2bgw02.1.dos.dvag.net]
+2022-06-10 11:05:59,463 p=257 u=holger n=ansible | changed: [b2bgw01.1.dos.dvag.net]
+2022-06-10 11:05:59,491 p=257 u=holger n=ansible | changed: [cloudapp02.1.cloud.dvag.net]
+2022-06-10 11:05:59,513 p=257 u=holger n=ansible | changed: [bulk02.1.dos.dvag.net]
+2022-06-10 11:06:00,263 p=257 u=holger n=ansible | changed: [cloudsyncapp01.1.cloud.dvag.net]
+2022-06-10 11:06:00,522 p=257 u=holger n=ansible | changed: [mailcon01.1.mail.dvag.net]
+2022-06-10 11:06:13,870 p=257 u=holger n=ansible | changed: [mailcon03.1.mail.dvag.net]
+2022-06-10 11:06:13,948 p=257 u=holger n=ansible | changed: [mailcon02.1.mail.dvag.net]
+2022-06-10 11:06:14,068 p=257 u=holger n=ansible | changed: [webmail01.1.web.dvag.net]
+2022-06-10 11:06:14,152 p=257 u=holger n=ansible | changed: [webmail02.1.web.dvag.net]
+2022-06-10 11:06:14,321 p=257 u=holger n=ansible | changed: [app02.2.dos.dvag.net]
+2022-06-10 11:06:14,346 p=257 u=holger n=ansible | changed: [app01.2.dos.dvag.net]
+2022-06-10 11:06:14,477 p=257 u=holger n=ansible | changed: [apos02.2.dos.dvag.net]
+2022-06-10 11:06:14,515 p=257 u=holger n=ansible | changed: [apos01.2.dos.dvag.net]
+2022-06-10 11:06:15,653 p=257 u=holger n=ansible | changed: [b2bgw01.2.dos.dvag.net]
+2022-06-10 11:06:15,836 p=257 u=holger n=ansible | changed: [b2bgw02.2.dos.dvag.net]
+2022-06-10 11:06:28,870 p=257 u=holger n=ansible | changed: [bulk01.2.dos.dvag.net]
+2022-06-10 11:06:28,920 p=257 u=holger n=ansible | changed: [cloudapp01.2.cloud.dvag.net]
+2022-06-10 11:06:28,961 p=257 u=holger n=ansible | changed: [bulk02.2.dos.dvag.net]
+2022-06-10 11:06:29,101 p=257 u=holger n=ansible | changed: [cloudapp02.2.cloud.dvag.net]
+2022-06-10 11:06:29,150 p=257 u=holger n=ansible | changed: [cloudsyncapp01.2.cloud.dvag.net]
+2022-06-10 11:06:29,177 p=257 u=holger n=ansible | changed: [cloudssop02.2.cloud.dvag.net]
+2022-06-10 11:06:29,246 p=257 u=holger n=ansible | changed: [cloudssop01.2.cloud.dvag.net]
+2022-06-10 11:06:29,345 p=257 u=holger n=ansible | changed: [mailcon01.2.mail.dvag.net]
+2022-06-10 11:06:30,428 p=257 u=holger n=ansible | changed: [mailcon02.2.mail.dvag.net]
+2022-06-10 11:06:31,098 p=257 u=holger n=ansible | changed: [apos01.4.dos.dvag.net]
+2022-06-10 11:06:43,741 p=257 u=holger n=ansible | changed: [webapp02.4.web.dvag.net]
+2022-06-10 11:06:43,848 p=257 u=holger n=ansible | changed: [webapp01.4.web.dvag.net]
+2022-06-10 11:06:43,867 p=257 u=holger n=ansible | changed: [b2bgw02.4.dos.dvag.net]
+2022-06-10 11:06:43,891 p=257 u=holger n=ansible | changed: [cloudsyncapp01.14.cloud.dvag.net]
+2022-06-10 11:06:43,911 p=257 u=holger n=ansible | changed: [b2bgw01.4.dos.dvag.net]
+2022-06-10 11:06:43,935 p=257 u=holger n=ansible | changed: [webmail01.4.web.dvag.net]
+2022-06-10 11:06:44,051 p=257 u=holger n=ansible | changed: [apos02.4.dos.dvag.net]
+2022-06-10 11:06:44,095 p=257 u=holger n=ansible | changed: [cloudsyncapp01.4.cloud.dvag.net]
+2022-06-10 11:06:45,018 p=257 u=holger n=ansible | changed: [webmail02.4.web.dvag.net]
+2022-06-10 11:06:45,836 p=257 u=holger n=ansible | changed: [webmail03.4.web.dvag.net]
+2022-06-10 11:06:58,853 p=257 u=holger n=ansible | changed: [bulk01.3.dos.dvag.net]
+2022-06-10 11:06:58,933 p=257 u=holger n=ansible | changed: [mailcon01.3.mail.dvag.net]
+2022-06-10 11:06:58,940 p=257 u=holger n=ansible | changed: [bulk02.3.dos.dvag.net]
+2022-06-10 11:06:59,002 p=257 u=holger n=ansible | changed: [mailcon03.3.mail.dvag.net]
+2022-06-10 11:06:59,046 p=257 u=holger n=ansible | changed: [mailcon02.3.mail.dvag.net]
+2022-06-10 11:06:59,068 p=257 u=holger n=ansible | PLAY RECAP *************************************************************************************************************
+2022-06-10 11:06:59,068 p=257 u=holger n=ansible | apos01.2.dos.dvag.net      : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,069 p=257 u=holger n=ansible | apos01.3.dos.dvag.net      : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,069 p=257 u=holger n=ansible | apos01.4.dos.dvag.net      : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,069 p=257 u=holger n=ansible | apos02.1.dos.dvag.net      : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,069 p=257 u=holger n=ansible | apos02.2.dos.dvag.net      : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,069 p=257 u=holger n=ansible | apos02.3.dos.dvag.net      : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,069 p=257 u=holger n=ansible | apos02.4.dos.dvag.net      : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,069 p=257 u=holger n=ansible | app01.1.dos.dvag.net       : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,070 p=257 u=holger n=ansible | app01.2.dos.dvag.net       : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,070 p=257 u=holger n=ansible | app02.1.dos.dvag.net       : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,070 p=257 u=holger n=ansible | app02.2.dos.dvag.net       : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,070 p=257 u=holger n=ansible | app17.1.dos.dvag.net       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,070 p=257 u=holger n=ansible | app18.1.dos.dvag.net       : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,070 p=257 u=holger n=ansible | b2bgw01.1.dos.dvag.net     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,070 p=257 u=holger n=ansible | b2bgw01.2.dos.dvag.net     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,071 p=257 u=holger n=ansible | b2bgw01.3.dos.dvag.net     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,071 p=257 u=holger n=ansible | b2bgw01.4.dos.dvag.net     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,071 p=257 u=holger n=ansible | b2bgw02.1.dos.dvag.net     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,071 p=257 u=holger n=ansible | b2bgw02.2.dos.dvag.net     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,071 p=257 u=holger n=ansible | b2bgw02.3.dos.dvag.net     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,071 p=257 u=holger n=ansible | b2bgw02.4.dos.dvag.net     : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,071 p=257 u=holger n=ansible | bulk01.1.dos.dvag.net      : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,072 p=257 u=holger n=ansible | bulk01.2.dos.dvag.net      : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,072 p=257 u=holger n=ansible | bulk01.3.dos.dvag.net      : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,072 p=257 u=holger n=ansible | bulk02.1.dos.dvag.net      : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,072 p=257 u=holger n=ansible | bulk02.2.dos.dvag.net      : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,072 p=257 u=holger n=ansible | bulk02.3.dos.dvag.net      : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,072 p=257 u=holger n=ansible | cloudapp01.2.cloud.dvag.net : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,072 p=257 u=holger n=ansible | cloudapp02.1.cloud.dvag.net : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,072 p=257 u=holger n=ansible | cloudapp02.2.cloud.dvag.net : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,073 p=257 u=holger n=ansible | cloudssop01.2.cloud.dvag.net : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,073 p=257 u=holger n=ansible | cloudssop02.1.cloud.dvag.net : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,073 p=257 u=holger n=ansible | cloudssop02.2.cloud.dvag.net : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,073 p=257 u=holger n=ansible | cloudsyncapp01.1.cloud.dvag.net : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,073 p=257 u=holger n=ansible | cloudsyncapp01.14.cloud.dvag.net : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,073 p=257 u=holger n=ansible | cloudsyncapp01.2.cloud.dvag.net : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,073 p=257 u=holger n=ansible | cloudsyncapp01.3.cloud.dvag.net : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,073 p=257 u=holger n=ansible | cloudsyncapp01.4.cloud.dvag.net : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,073 p=257 u=holger n=ansible | mailcon01.1.mail.dvag.net  : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,073 p=257 u=holger n=ansible | mailcon01.2.mail.dvag.net  : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,073 p=257 u=holger n=ansible | mailcon01.3.mail.dvag.net  : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,074 p=257 u=holger n=ansible | mailcon02.1.mail.dvag.net  : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,074 p=257 u=holger n=ansible | mailcon02.2.mail.dvag.net  : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,074 p=257 u=holger n=ansible | mailcon02.3.mail.dvag.net  : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,074 p=257 u=holger n=ansible | mailcon03.1.mail.dvag.net  : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,074 p=257 u=holger n=ansible | mailcon03.3.mail.dvag.net  : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,074 p=257 u=holger n=ansible | webapp01.3.web.dvag.net    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,074 p=257 u=holger n=ansible | webapp01.4.web.dvag.net    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,074 p=257 u=holger n=ansible | webapp02.3.web.dvag.net    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,074 p=257 u=holger n=ansible | webapp02.4.web.dvag.net    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,074 p=257 u=holger n=ansible | webcms01.3.web.dvag.net    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,074 p=257 u=holger n=ansible | webcms01.4.web.dvag.net    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,075 p=257 u=holger n=ansible | webcms02.1.web.dvag.net    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,075 p=257 u=holger n=ansible | webcms02.3.web.dvag.net    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,075 p=257 u=holger n=ansible | webcms02.4.web.dvag.net    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,075 p=257 u=holger n=ansible | webcms03.1.web.dvag.net    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,075 p=257 u=holger n=ansible | webcms03.3.web.dvag.net    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,075 p=257 u=holger n=ansible | webcms03.4.web.dvag.net    : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,075 p=257 u=holger n=ansible | webmail01.1.web.dvag.net   : ok=3    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,076 p=257 u=holger n=ansible | webmail01.3.web.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,076 p=257 u=holger n=ansible | webmail01.4.web.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,076 p=257 u=holger n=ansible | webmail02.1.web.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,076 p=257 u=holger n=ansible | webmail02.3.web.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,076 p=257 u=holger n=ansible | webmail02.4.web.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,076 p=257 u=holger n=ansible | webmail03.3.web.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,077 p=257 u=holger n=ansible | webmail03.4.web.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,077 p=257 u=holger n=ansible | webssop01.1.web.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,077 p=257 u=holger n=ansible | webssop01.3.web.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,078 p=257 u=holger n=ansible | webssop01.4.web.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,078 p=257 u=holger n=ansible | webssop02.1.web.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,078 p=257 u=holger n=ansible | webssop02.3.web.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,079 p=257 u=holger n=ansible | webssop02.4.web.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,079 p=257 u=holger n=ansible | zserver01.1.dos.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,079 p=257 u=holger n=ansible | zserver01.3.dos.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,079 p=257 u=holger n=ansible | zserver02.1.dos.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-06-10 11:06:59,080 p=257 u=holger n=ansible | zserver02.3.dos.dvag.net   : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:19,267 p=19851 u=holger n=ansible | PLAY [all] *********************************************************************************************************************************************************************************************************************************
+2022-07-21 16:05:19,289 p=19851 u=holger n=ansible | TASK [ansible-role-delete_service : Remove file (delete file)] *****************************************************************************************************************************************************************************
+2022-07-21 16:05:21,087 p=19851 u=holger n=ansible | changed: [webmail03.14.web.dvag.net]
+2022-07-21 16:05:21,112 p=19851 u=holger n=ansible | changed: [webmail01.14.web.dvag.net]
+2022-07-21 16:05:21,133 p=19851 u=holger n=ansible | changed: [webmail02.14.web.dvag.net]
+2022-07-21 16:05:21,152 p=19851 u=holger n=ansible | changed: [zserver01.14.dos.dvag.net]
+2022-07-21 16:05:21,256 p=19851 u=holger n=ansible | changed: [webcms02.14.web.dvag.net]
+2022-07-21 16:05:21,312 p=19851 u=holger n=ansible | changed: [webcms03.14.web.dvag.net]
+2022-07-21 16:05:21,350 p=19851 u=holger n=ansible | changed: [webcms01.14.web.dvag.net]
+2022-07-21 16:05:21,384 p=19851 u=holger n=ansible | changed: [webssop01.14.web.dvag.net]
+2022-07-21 16:05:21,454 p=19851 u=holger n=ansible | changed: [webssop02.14.web.dvag.net]
+2022-07-21 16:05:21,458 p=19851 u=holger n=ansible | ok: [webcms01.1.web.dvag.net]
+2022-07-21 16:05:22,642 p=19851 u=holger n=ansible | changed: [webapp01.14.web.dvag.net]
+2022-07-21 16:05:22,643 p=19851 u=holger n=ansible | changed: [webapp02.14.web.dvag.net]
+2022-07-21 16:05:23,175 p=19851 u=holger n=ansible | changed: [b2bgw02.14.dos.dvag.net]
+2022-07-21 16:05:23,192 p=19851 u=holger n=ansible | changed: [cloudssop01.1.cloud.dvag.net]
+2022-07-21 16:05:23,303 p=19851 u=holger n=ansible | changed: [bulk02.4.dos.dvag.net]
+2022-07-21 16:05:23,304 p=19851 u=holger n=ansible | changed: [apos02.14.dos.dvag.net]
+2022-07-21 16:05:23,354 p=19851 u=holger n=ansible | changed: [b2bgw01.14.dos.dvag.net]
+2022-07-21 16:05:23,436 p=19851 u=holger n=ansible | changed: [apos01.14.dos.dvag.net]
+2022-07-21 16:05:23,471 p=19851 u=holger n=ansible | changed: [bulk01.4.dos.dvag.net]
+2022-07-21 16:05:23,495 p=19851 u=holger n=ansible | TASK [ansible-role-delete_service : Make sure a service unit is running] *******************************************************************************************************************************************************************
+2022-07-21 16:05:38,082 p=19851 u=holger n=ansible | changed: [webmail02.14.web.dvag.net]
+2022-07-21 16:05:38,108 p=19851 u=holger n=ansible | changed: [webmail03.14.web.dvag.net]
+2022-07-21 16:05:38,132 p=19851 u=holger n=ansible | changed: [webmail01.14.web.dvag.net]
+2022-07-21 16:05:38,173 p=19851 u=holger n=ansible | changed: [zserver01.14.dos.dvag.net]
+2022-07-21 16:05:38,207 p=19851 u=holger n=ansible | changed: [webcms03.14.web.dvag.net]
+2022-07-21 16:05:38,238 p=19851 u=holger n=ansible | changed: [webcms02.14.web.dvag.net]
+2022-07-21 16:05:38,270 p=19851 u=holger n=ansible | changed: [webcms01.14.web.dvag.net]
+2022-07-21 16:05:38,298 p=19851 u=holger n=ansible | changed: [webcms01.1.web.dvag.net]
+2022-07-21 16:05:38,329 p=19851 u=holger n=ansible | changed: [webssop01.14.web.dvag.net]
+2022-07-21 16:05:38,362 p=19851 u=holger n=ansible | changed: [webssop02.14.web.dvag.net]
+2022-07-21 16:05:52,100 p=19851 u=holger n=ansible | changed: [webapp02.14.web.dvag.net]
+2022-07-21 16:05:52,112 p=19851 u=holger n=ansible | changed: [webapp01.14.web.dvag.net]
+2022-07-21 16:05:52,347 p=19851 u=holger n=ansible | changed: [cloudssop01.1.cloud.dvag.net]
+2022-07-21 16:05:52,459 p=19851 u=holger n=ansible | changed: [bulk02.4.dos.dvag.net]
+2022-07-21 16:05:52,514 p=19851 u=holger n=ansible | changed: [bulk01.4.dos.dvag.net]
+2022-07-21 16:05:52,529 p=19851 u=holger n=ansible | changed: [b2bgw02.14.dos.dvag.net]
+2022-07-21 16:05:52,632 p=19851 u=holger n=ansible | changed: [b2bgw01.14.dos.dvag.net]
+2022-07-21 16:05:52,721 p=19851 u=holger n=ansible | changed: [apos02.14.dos.dvag.net]
+2022-07-21 16:05:52,756 p=19851 u=holger n=ansible | changed: [apos01.14.dos.dvag.net]
+2022-07-21 16:05:53,005 p=19851 u=holger n=ansible | PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+2022-07-21 16:05:53,006 p=19851 u=holger n=ansible | apos01.14.dos.dvag.net     : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,006 p=19851 u=holger n=ansible | apos02.14.dos.dvag.net     : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,006 p=19851 u=holger n=ansible | b2bgw01.14.dos.dvag.net    : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,007 p=19851 u=holger n=ansible | b2bgw02.14.dos.dvag.net    : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,007 p=19851 u=holger n=ansible | bulk01.4.dos.dvag.net      : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,007 p=19851 u=holger n=ansible | bulk02.4.dos.dvag.net      : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,008 p=19851 u=holger n=ansible | cloudssop01.1.cloud.dvag.net : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,008 p=19851 u=holger n=ansible | webapp01.14.web.dvag.net   : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,008 p=19851 u=holger n=ansible | webapp02.14.web.dvag.net   : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,008 p=19851 u=holger n=ansible | webcms01.1.web.dvag.net    : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,009 p=19851 u=holger n=ansible | webcms01.14.web.dvag.net   : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,009 p=19851 u=holger n=ansible | webcms02.14.web.dvag.net   : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,009 p=19851 u=holger n=ansible | webcms03.14.web.dvag.net   : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,009 p=19851 u=holger n=ansible | webmail01.14.web.dvag.net  : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,009 p=19851 u=holger n=ansible | webmail02.14.web.dvag.net  : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,009 p=19851 u=holger n=ansible | webmail03.14.web.dvag.net  : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,009 p=19851 u=holger n=ansible | webssop01.14.web.dvag.net  : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,009 p=19851 u=holger n=ansible | webssop02.14.web.dvag.net  : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-21 16:05:53,010 p=19851 u=holger n=ansible | zserver01.14.dos.dvag.net  : ok=2    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

@@ -10,11 +10,13 @@
 #     state: restarted
 #     enabled: yes
 
-- name: Show Consul Version
-  shell: consul --version
-  register: consul_version
+- name: Remove file (delete file)
+  ansible.builtin.file:
+    path: /etc/consul.d/jmx_exporter.json
+    state: absent
 
-    
-- name: Show Consul Version
-  ansible.builtin.debug:
-    var: consul_version.stdout_lines
+- name: Make sure a service unit is running
+  ansible.builtin.systemd:
+    state: restarted
+    name: consul.service
+
